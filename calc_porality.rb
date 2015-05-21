@@ -21,17 +21,17 @@ polarity.each_with_index do |sine,i|
   polarity[i] << cosine
 end
 
-p polarity
-
 item = polarity.pop
 
-composition_sine = item[0]
-composition_cosine = item[1]
-
-polarity.each do |elem|
-  composition_sine = composition_sine * item[1] + composition_cosine * item[0]
-  composition_cosine = (Math.sqrt(1 - composition_sine**2))
+if item
+  composition_sine = item[0]
+  composition_cosine = item[1]
+  polarity.each do |elem|
+    composition_sine = composition_sine * elem[1] + composition_cosine * elem[0]
+    composition_cosine = (Math.sqrt(1 - composition_sine**2))
+  end
+else
+  composition_sine = 0
 end
 
-
-p composition_sine
+puts "value is #{composition_sine}. (this value have from -1 to 1)"
