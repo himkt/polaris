@@ -7,6 +7,8 @@ db = SQLite3::Database.new("data/model.db")
 
 polarity = []
 
+print "please input a sentense: "
+
 nm.parse(gets.chomp).split(/\n/).each do |line|
   break if line == 'EOS'
   value = db.execute("SELECT value FROM models WHERE word = ? LIMIT 1",line.split(/\t/)[1].split(/\,/)[6])[0]

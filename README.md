@@ -34,6 +34,16 @@ or
 bundle exec ruby calc_polarity.eb
 ```
 
+input a sentense
+```
+今日はなんだか眠いし帰りたいな
+```
+
+programm gives an output
+```
+value is -0.6434137286656811. (this value have from -1 to 1)
+```
+
 I use sinusoidal synthesis to calculate a value.
 
 ## reference
