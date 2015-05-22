@@ -5,6 +5,7 @@ GEM
     natto (1.0.0)
       ffi (>= 1.9.0)
     sqlite3 (1.3.10)
+    stemmify (0.0.2)
 
 PLATFORMS
   ruby
@@ -12,3 +13,4 @@ PLATFORMS
 DEPENDENCIES
   natto
   sqlite3
+  stemmify

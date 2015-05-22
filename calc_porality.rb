@@ -9,7 +9,7 @@ polarity = []
 
 nm.parse(gets.chomp).split(/\n/).each do |line|
   break if line == 'EOS'
-  value = db.execute("SELECT value FROM models WHERE word = ?",line.split(/\t/)[1].split(/\,/)[6])[0]
+  value = db.execute("SELECT value FROM models WHERE word = ? LIMIT 1",line.split(/\t/)[1].split(/\,/)[6])[0]
   polarity << [value[0]] if value
 end
 
