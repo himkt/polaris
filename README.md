@@ -18,10 +18,12 @@ to install these plugin. you may have to install [mecab](http://taku910.github.i
 
 ## Build
 
+Using [rake](https://github.com/ruby/rake) for building a model
+
 in this repository, plase run
 
 ```shell
-make build
+bundle exec rake build
 ```
 
 Then,
