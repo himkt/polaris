@@ -27,11 +27,11 @@ make build
 Then,
 
 ```ruby
-ruby calc_polarity.rb
+ruby main.rb
 ```
 or
 ```ruby
-bundle exec ruby calc_polarity.eb
+bundle exec ruby main.rb
 ```
 
 input a sentense
