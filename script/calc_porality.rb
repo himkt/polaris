@@ -12,8 +12,10 @@ module Pos_Neg
     polarity = []
 
     nm.parse(sentense).split(/\n/).each do |line|
-      break if line == 'EOS'
-      value = db.execute("SELECT value FROM models WHERE word = ? LIMIT 1",line.split(/\t/)[1].split(/\,/)[6])[0]
+      elem = line.split(/\t/)
+      break if elem[0] == 'EOS' 
+      word = (elem[1].split(/\,/)[6] == '*') ? elem[0] : elem[1].split(/\,/)[6]
+      value = db.execute("SELECT value FROM models WHERE word = ? LIMIT 1",word)[0]
       polarity << [value[0]] if value
     end
 
