@@ -38,6 +38,37 @@ bundle exec ruby main.rb
 
 input a sentense
 ```
+Today is happy day
+```
+
+programm gives an output
+```
+value is 0.781096992929786. (this value have from -1 to 1)
+```
+
+input a sentense
+```
+I have so sad news
+```
+
+programm gives an output
+```
+value is -0.7682471659724701. (this value have from -1 to 1)
+```
+
+
+input a sentense
+```
+楽しくて素晴らしい、良い一日だ
+```
+
+programm gives an output
+```
+value is 0.9699159788945327. (this value have from -1 to 1)
+```
+
+input a sentense
+```
 今日はなんだか眠いし帰りたいな
 ```
 
