@@ -1,8 +1,8 @@
-# Polarity analysis
+# Polaris
 
-This programm do a polarity analysis.  
+Polaris provides you a method of polarity analysis.
 
-I use dataset made public by Tokyo Institute of Technology.  
+I use dataset offered by Tokyo Institute of Technology.  
 
 [Semantic Orientations of Words](http://www.lr.pi.titech.ac.jp/~takamura/pndic_en.html)
 
