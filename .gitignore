@@ -1,4 +1,6 @@
 .*
 !.gitignore
-data
+data/model.db
+data/pn_en.dic
+data/pn_ja.dic
 bundle

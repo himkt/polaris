@@ -10,4 +10,6 @@ task :build do
   sh "mv data/pn_ja.dic.conv data/pn_ja.dic"
   sh "bundle exec ruby script/make_database.rb ja"
   sh "bundle exec ruby script/make_database.rb en"
+  sh "rm data/pn_ja.dic"
+  sh "rm data/pn_en.dic"
 end
