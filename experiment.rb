@@ -10,8 +10,6 @@ j = 0
 
 
 File.foreach('data/sentiment.utf8.txt') do |line|
-  puts "i: #{i}"
-  puts "j: #{j}"
   tag = line[0...2].to_f
   line = line[3...-1]
   value = Pos_Neg::calc line
