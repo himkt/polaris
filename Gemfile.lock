@@ -16,3 +16,6 @@ DEPENDENCIES
   rake
   sqlite3
   stemmify
+
+BUNDLED WITH
+   1.10.3
