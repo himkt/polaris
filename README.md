@@ -14,7 +14,7 @@ This program requires the [sqlite3](https://rubygems.org/gems/sqlite3) and [natt
 bundle install
 ```
 
-to install these plugin. You may have to install [mecab](http://taku910.github.io/mecab/) as well.
+to install these plugins. You may have to install [mecab](http://taku910.github.io/mecab/) as well.
 
 ## Build and Use
 
