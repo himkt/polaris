@@ -6,7 +6,7 @@ I use a dataset offered by the Tokyo Institute of Technology.
 
 [Semantic Orientations of Words](http://www.lr.pi.titech.ac.jp/~takamura/pndic_en.html)
 
-## requirement
+## Requirements
 
 This program requires the [sqlite3](https://rubygems.org/gems/sqlite3) and [natto (mecab)](https://rubygems.org/gems/natto) Rubygems. Please run
 
