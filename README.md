@@ -18,9 +18,7 @@ to install these plugin. You may have to install [mecab](http://taku910.github.i
 
 ## Build and Use
 
-Using [rake](https://github.com/ruby/rake) for building a model
-
-in this repository, please run
+Using [rake](https://github.com/ruby/rake) for building a model in this repository, please run
 
 ```shell
 bundle exec rake build
@@ -88,6 +86,6 @@ Hiroya Takamura, Takashi Inui, Manabu Okumura,
 
 I experimented the precision and reported the results in [my blog](http://h1mkt.hateblo.jp/entries/2015/06/17).
 
-## `polaris` In Practice
+## polaris In Practice
 
 I use polaris to analyze polarity of posts in [Twintter](https://github.com/himkt/twintter).
