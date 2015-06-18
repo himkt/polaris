@@ -83,3 +83,11 @@ I use sinusoidal synthesis to calculate a value.
 
 Hiroya Takamura, Takashi Inui, Manabu Okumura,
 "Extracting Semantic Orientations of Words using Spin Model", In Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL2005) , pages 133--140, 2005.
+
+## Experiment
+
+I experimented the precision and reported the result in [my blog](http://h1mkt.hateblo.jp/entries/2015/06/17).
+
+## Practice
+
+I use polaris to analyze polarity of post in [Twintter](https://github.com/himkt/twintter)
