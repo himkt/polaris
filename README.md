@@ -1,91 +1,41 @@
-# Polaris
+# Polaris::Nlp
 
-Polaris provides methods for polarity analysis (semantic orientations).
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/polaris/nlp`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-I use a dataset offered by the Tokyo Institute of Technology.  
+TODO: Delete this and the text above, and describe your gem
 
-[Semantic Orientations of Words](http://www.lr.pi.titech.ac.jp/~takamura/pndic_en.html)
+## Installation
 
-## Requirements
-
-This program requires the [sqlite3](https://rubygems.org/gems/sqlite3) and [natto (mecab)](https://rubygems.org/gems/natto) Rubygems. Please run
-
-```shell
-bundle install
-```
-
-to install these plugins. You may have to install [mecab](http://taku910.github.io/mecab/) as well.
-
-## Build and Use
-
-Using [rake](https://github.com/ruby/rake) for building a model in this repository, please run
-
-```shell
-bundle exec rake build
-```
-
-Then,
+Add this line to your application's Gemfile:
 
 ```ruby
-ruby main.rb
-```
-or
-```ruby
-bundle exec ruby main.rb
+gem 'polaris-nlp'
 ```
 
-Input a positive sentence
-```
-Today is happy day
-```
+And then execute:
 
-and the program provides output
-```
-value is 0.781096992929786. (this value have from -1 to 1)
-```
+    $ bundle
 
-Input another sentence, this time negative
-```
-I have so sad news
-```
+Or install it yourself as:
 
-and the program gives this output
-```
-value is -0.7682471659724701. (this value have from -1 to 1)
-```
+    $ gem install polaris-nlp
+
+## Usage
+
+TODO: Write usage instructions here
+
+## Development
+
+After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/polaris-nlp. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
-Now, input a sentence in Japanese
-```
-楽しくて素晴らしい、良い一日だ
-```
+## License
 
-and the program outputs
-```
-value is 0.9699159788945327. (this value have from -1 to 1)
-```
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-Entering yet another sentence
-```
-今日はなんだか眠いし帰りたいな
-```
-
-and now the program outputs
-```
-value is -0.6434137286656811. (this value have from -1 to 1)
-```
-
-I use sinusoidal synthesis to calculate values.
-
-## References
-
-Hiroya Takamura, Takashi Inui, Manabu Okumura,
-"Extracting Semantic Orientations of Words using Spin Model", In Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL2005) , pages 133--140, 2005.
-
-## Experiments
-
-I experimented the precision and reported the results in [my blog](http://h1mkt.hateblo.jp/entries/2015/06/17).
-
-## polaris In Practice
-
-I use polaris to analyze polarity of posts in [Twintter](https://github.com/himkt/twintter).
