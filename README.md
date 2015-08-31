@@ -1,8 +1,12 @@
-# Polaris::Nlp
+# Polaris
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/polaris/nlp`. To experiment with that code, run `bin/console` for an interactive prompt.
+Polaris provides methods for polarity analysis (semantic orientations).
 
-TODO: Delete this and the text above, and describe your gem
+I use a dataset offered by the Tokyo Institute of Technology.  
+
+[Semantic Orientations of Words](http://www.lr.pi.titech.ac.jp/~takamura/pndic_en.html)  
+
+Gem Interface
 
 ## Installation
 
