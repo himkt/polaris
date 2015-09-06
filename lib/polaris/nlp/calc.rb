@@ -14,7 +14,6 @@ module Polaris
     def calc_polarity(sentence)
 
       if File.exists?(@path_to_db)
-        puts 'a'
         db = SQLite3::Database.new("#{@home}/.polaris/features.sqlite3")
         nm = Natto::MeCab.new
 

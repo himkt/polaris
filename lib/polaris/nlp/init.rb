@@ -22,7 +22,10 @@ module Polaris
       en_text = open('http://www.lr.pi.titech.ac.jp/%7Etakamura/pubs/pn_en.dic').read.encode('utf-8','sjis')
       puts "Done"
 
-      FileUtils.rm("#{@home}/.polaris/features.sqlite3")
+      if File.exists?("#{@home}/.polaris/features.sqlite3")
+        FileUtils.rm("#{@home}/.polaris/features.sqlite3")
+      end
+
       db = SQLite3::Database.new("#{@home}/.polaris/features.sqlite3")
       db.execute("CREATE TABLE models (word TEXT ,value REAL);")
 

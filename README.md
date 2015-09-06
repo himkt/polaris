@@ -28,6 +28,19 @@ Or install it yourself as:
 
 ## Usage
 
+### Init
+
+```ruby
+require 'polaris/nlp'
+Polaris::Nlp.init
+```
+
+### Calculate polarity
+
+```ruby
+require 'polaris/nlp'
+Polaris::Nlp.calc_polarity("I'm happy !")
+```
 
 ## Development
 
