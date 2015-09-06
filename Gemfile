@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'rake'
-gem 'sqlite3'
-gem 'natto'
-gem 'stemmify'
+# Specify your gem's dependencies in polaris-nlp.gemspec
+gemspec
