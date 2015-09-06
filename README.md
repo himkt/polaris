@@ -10,6 +10,10 @@ I use a dataset offered by the Tokyo Institute of Technology.
 
 Gem Interface
 
+## Requirements
+
+* mecab
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -31,15 +35,17 @@ Or install it yourself as:
 ### Init
 
 ```ruby
+
 require 'polaris/nlp'
 Polaris::Nlp.init
+
 ```
 
 ### Calculate polarity
 
 ```ruby
 require 'polaris/nlp'
-Polaris::Nlp.calc_polarity("I'm happy !")
+puts Polaris::Nlp.calc_polarity("I'm happy !")
 ```
 
 ## Development
