@@ -1,6 +1,8 @@
 # Polaris
 
-Polaris provides methods for polarity analysis (semantic orientations).
+natural language processing / polarity analysis--
+
+Polaris provides methods for polarity analysis (semantic orientations).  
 
 I use a dataset offered by the Tokyo Institute of Technology.  
 
