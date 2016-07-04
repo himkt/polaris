@@ -1,5 +1,12 @@
 # Polaris
 
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?maxAge=2592000)](https://rubygems.org/gems/polaris-nlp)
+[![GitHub issues](https://img.shields.io/github/issues/himkt/polaris.svg)](https://github.com/himkt/polaris/issues)
+[![GitHub stars](https://img.shields.io/github/stars/himkt/polaris.svg)](https://github.com/himkt/polaris/stargazers) 
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000)](https://github.com/himkt/polaris) 
+[![GitHub commits](https://img.shields.io/github/commits-since/SubtitleEdit/subtitleedit/3.4.7.svg?maxAge=2592000)](https://github.com/himkt/polaris)
+
 natural language processing / polarity analysis--
 
 Polaris provides methods for polarity analysis (semantic orientations).  
